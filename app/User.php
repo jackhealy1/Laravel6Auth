@@ -36,4 +36,10 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    // // NEXMO CHANGED TO VONAGE SO THIS DOESNT WORK ANYMORE
+    // public function routeNotificationForNexmo($notification)
+    // {
+    //     return '0751570820';
+    // }
 }

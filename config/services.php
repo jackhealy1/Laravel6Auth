@@ -30,4 +30,9 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    // // NEXMO CHANGED TO VONAGE SO THIS DOESNT WORK ANYMORE
+    // 'nexmo' => [
+    //     'sms_from' => '07515708720',
+    // ],
+
 ];
